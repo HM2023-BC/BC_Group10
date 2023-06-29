@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Digital ID-Germany</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="getNFT.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Digitale ID</h1>
+      <h2>Digitale ID Abfragen:</h2>
+      <form id="getNFTInfoForm">
+        <label for="searchField">Suchfeld:</label>
+        <input type="text" id="searchField" required><br>
+        <input type="submit" value="Digitale ID Abfragen">
+      </form>
+      
+      <div id="nftInfo">
+        <h3>NFT Informationen:</h3>
+        <p id="tokenIdDisplay">NFT ID: </p>
+        <p id="ageDisplay">Alter: </p>
+        <p id="nameDisplay">Vorname: </p>
+        <p id="surnameDisplay">Nachname: </p>
+        <p id="heightDisplay">Größe: </p>
+        <p id="eyeColorDisplay">Augenfarbe: </p>
+        <p id="religionDisplay">Religion: </p>
+        <p id="locationDisplay">Wohnort: </p>
+        <p id="eIdDisplay">E-ID: </p>
+        <p id="issuanceDateDisplay">Ausstellungsdatum: </p>
+      </div>
+
+      <img id="nftImage" alt="NFT Bild" style="display: none;">
+    </div>
+  </body>
+</html>

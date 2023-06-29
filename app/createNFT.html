@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Digital ID-Germany</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="createNFT.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Digitale ID</h1>
+      
+      <h2>Digitale ID beantragen</h2>
+      <p>Bitte geben Sie die geforderten Informationen ein und drücken Sie anschließend "Digitale ID erstellen".</p>
+      <p>Daten sind in der Form "ttmmjj" anzugeben.</p>
+      <form id="createNFTForm">
+        <label for="age">Geburtsdatum:</label>
+        <input type="number" id="age" required><br>
+        <label for="name">Vorname:</label>
+        <input type="text" id="name" required><br>
+        <label for="surname">Nachname:</label>
+        <input type="text" id="surname" required><br>
+        <label for="height">Größe:</label>
+        <input type="number" id="height" required><br>
+        <label for="eyeColor">Augenfarbe:</label>
+        <input type="text" id="eyeColor" required><br>
+        <label for="religion">Religion:</label>
+        <input type="text" id="religion"><br>
+        <label for="location">Wohnort:</label>
+        <input type="text" id="location" required><br>
+        <label for="eId">E-ID:</label>
+        <input type="number" id="eId" required><br>
+        <label for="issuanceDate">Ausstellungsdatum:</label>
+        <input type="number" id="issuanceDate" required><br>
+        <label for="image">Bild:</label>
+        <input type="file" id="image" required><br>
+        <input type="submit" value="Digitale ID erstellen">
+      </form>
+      <form>
+        <input type="checkbox" id="meineCheckbox" name="meineCheckbox">
+        <label for="meineCheckbox">Ich stimme zu das alle Daten wahrheitsgetreu angegeben wurden.</label>
+        <br>
+      </form>
+  </body>
+</html>

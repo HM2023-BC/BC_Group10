@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4CAF50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    background-color: LightSkyBlue;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    color: black;
+    margin-top: 30px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="file"] {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #tokenId,
+  #owner,
+  #nftInfo {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: black;
+  }
